@@ -9,10 +9,10 @@ In this case, since the Pizza tracker allow needs to do pretty basic things, I w
 - A REST api will allow us to perform HTTP methods. THese allow us to send 'GET', 'POST', 'PUT', and 'DELETE' requests to a server via specified URL's. GET will allow us to receive data from the server, POST will allows us to create new information, PUT can change information and DELETE will delete data on the server.
 
 
-##How the Pizza tracker will use this?
+## How the Pizza tracker will use this?
 There will be a client side (the app or the website) which will interact to the server holding information about pizza status via a REST API
 
-###Endpoints:
+### Endpoints:
 - A customer will need to be able to see what is avaible to order so must send an HTTP "GET" request to '/api/availble-items'. The server will send back a JSON file that the client can parse into an availble menu for the customer to choose from
 
 
